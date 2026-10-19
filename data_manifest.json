@@ -1,0 +1,96 @@
+{
+  "description": "Game-derived files the test suites need. None of them are committed; fetch_data.py copies them in from a local extraction and verifies every hash.",
+  "game": "ELDEN RING (PC). The hashes pin the exact game build these files came from.",
+  "files": [
+    {
+      "dest": "bnd4_parser/files/c0000_anibnd.bin",
+      "size": 68192570,
+      "sha256": "2898e0170c942a3a0afd6ce81ab7e8df211754e97c27e5f75c7d90c794e68315",
+      "archive": "Data3",
+      "archive_path": "/chr/c0000.anibnd.dcx",
+      "accepted_names": ["c0000.anibnd", "c0000.anibnd.dcx", "c0000_anibnd.bin"]
+    },
+    {
+      "dest": "bnd4_parser/files/c0000_a00_hi_anibnd.bin",
+      "size": 21557252,
+      "sha256": "e65ae56a4f08190bb8e3679526df470178cc8a8e4fdf892a9737dbd8e4b721c7",
+      "archive": "Data3",
+      "archive_path": "/chr/c0000_a00_hi.anibnd.dcx",
+      "accepted_names": ["c0000_a00_hi.anibnd", "c0000_a00_hi.anibnd.dcx", "c0000_a00_hi_anibnd.bin"]
+    },
+    {
+      "dest": "bnd4_parser/files/c0000_a00_lo_anibnd.bin",
+      "size": 307636,
+      "sha256": "64e9891c0eb350668c2efa2cf0a2def68919586e412598c8d85f94b30d92c0da",
+      "archive": "Data3",
+      "archive_path": "/chr/c0000_a00_lo.anibnd.dcx",
+      "accepted_names": ["c0000_a00_lo.anibnd", "c0000_a00_lo.anibnd.dcx", "c0000_a00_lo_anibnd.bin"]
+    },
+    {
+      "dest": "bnd4_parser/files/c0000_a00_md_anibnd.bin",
+      "size": 1715364,
+      "sha256": "d8215940de5b1fd55914fa28d076cfa8dac7474098d3859f25e42dd73f6d7d01",
+      "archive": "Data3",
+      "archive_path": "/chr/c0000_a00_md.anibnd.dcx",
+      "accepted_names": ["c0000_a00_md.anibnd", "c0000_a00_md.anibnd.dcx", "c0000_a00_md_anibnd.bin"]
+    },
+    {
+      "dest": "bnd4_parser/files/c0000_a0x_anibnd.bin",
+      "size": 5028276,
+      "sha256": "184fe08ea4a18a6aa5edc17a4747c5428e651ff870b48c030f20cdf39b58d866",
+      "archive": "Data3",
+      "archive_path": "/chr/c0000_a0x.anibnd.dcx",
+      "accepted_names": ["c0000_a0x.anibnd", "c0000_a0x.anibnd.dcx", "c0000_a0x_anibnd.bin"]
+    },
+    {
+      "dest": "bnd4_parser/files/c0000_a1x_anibnd.bin",
+      "size": 8355428,
+      "sha256": "5d3014187a97548496caa2f27432aad12ea88ca91ee9d5fe6929687ef90fdb24",
+      "archive": "Data3",
+      "archive_path": "/chr/c0000_a1x.anibnd.dcx",
+      "accepted_names": ["c0000_a1x.anibnd", "c0000_a1x.anibnd.dcx", "c0000_a1x_anibnd.bin"]
+    },
+    {
+      "dest": "bnd4_parser/files/c0000_a2x_anibnd.bin",
+      "size": 15749956,
+      "sha256": "ca3b6b880437cd848ce170c6a266b117603c2b557e638a56dd2ef067d5710118",
+      "archive": "Data3",
+      "archive_path": "/chr/c0000_a2x.anibnd.dcx",
+      "accepted_names": ["c0000_a2x.anibnd", "c0000_a2x.anibnd.dcx", "c0000_a2x_anibnd.bin"]
+    },
+    {
+      "dest": "bnd4_parser/files/c0000_a3x_anibnd.bin",
+      "size": 19105364,
+      "sha256": "0b5669968e7bfc09f62e57c1c7e8bbcd14beb0c8fd685ded1bee4ba701cb7c1a",
+      "archive": "Data3",
+      "archive_path": "/chr/c0000_a3x.anibnd.dcx",
+      "accepted_names": ["c0000_a3x.anibnd", "c0000_a3x.anibnd.dcx", "c0000_a3x_anibnd.bin"]
+    },
+    {
+      "dest": "bnd4_parser/files/c0000_a4x_anibnd.bin",
+      "size": 9806964,
+      "sha256": "4dfd3e0745a23a0f84315e52e6d7db0b04de11c70e831db0ed9d97330d1db784",
+      "archive": "Data3",
+      "archive_path": "/chr/c0000_a4x.anibnd.dcx",
+      "accepted_names": ["c0000_a4x.anibnd", "c0000_a4x.anibnd.dcx", "c0000_a4x_anibnd.bin"]
+    },
+    {
+      "dest": "bnd4_parser/files/c0000_a5x_anibnd.bin",
+      "size": 2465172,
+      "sha256": "4eb0fc07080c49351a440bcaea2ab9c8be12b0728d2f986d2af2fa1f32beaa0c",
+      "archive": "Data3",
+      "archive_path": "/chr/c0000_a5x.anibnd.dcx",
+      "accepted_names": ["c0000_a5x.anibnd", "c0000_a5x.anibnd.dcx", "c0000_a5x_anibnd.bin"]
+    }
+  ],
+  "derived": [
+    {
+      "dest": "bnd4_parser/hex_samples/real_bnd4_header.hex",
+      "size": 2528,
+      "sha256": "a0cc46fe8ebef6c6088ea410688241a33d794dda7b4e4a3b7c0da66112a02f93",
+      "from": "bnd4_parser/files/c0000_a00_hi_anibnd.bin",
+      "kind": "hexdump",
+      "length": 512
+    }
+  ]
+}
